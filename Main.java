@@ -35,6 +35,7 @@ public class Main extends JFrame{
 		getContentPane().add( pBotonera, BorderLayout.SOUTH );
 
 		// Punto 8
+		bd = new BaseDatos();
 		ventana.addWindowListener(new WindowAdapter() {
 
 			@Override
